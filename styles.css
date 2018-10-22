@@ -88,8 +88,10 @@ navbar li {
 #summary {
     min-height: 100vh;
     color: #fff;
-    background: url("img/computer.jpg") top center no-repeat;
+    background:-webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(black)), url("img/computer.jpg") top center no-repeat;
+    background:linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), black), url("img/computer.jpg") top center no-repeat;
     background-size: cover;
+    
 }
 
 .summary_name {
@@ -140,7 +142,11 @@ navbar li {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     z-index: 20;
-
+}
+.summary_name,.summary_sum {
+	-webkit-animation: 1s fade 1s ease-in forwards;
+    animation: 1s fade 1s ease-in forwards;
+    opacity: 0;
 }
 
 #projects {
@@ -153,15 +159,17 @@ navbar li {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    min-height: 96vh;
 
 }
 
 #projects h2 {
     -ms-flex-item-align: center;
     align-self: center;
-    font-size: 2.5em;
+    font-size: 2.9em;
     font-weight: bold;
     z-index: 20;
+    padding-top: 5vh;
 }
 
 
@@ -174,6 +182,7 @@ navbar li {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 100%;
+    padding-top: 9vh;
 }
 
 .projects_card {
@@ -236,14 +245,15 @@ navbar li {
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
     line-height: 1.5em;
+    min-height: 80vh;
 
 }
 
 #skills h2 {
     -ms-flex-item-align: center;
     align-self: center;
-    font-size: 2.5em;
-    padding-top: 0.5em;
+    font-size: 2.9em;
+    padding-top: 7vh;
     font-weight: bold;
     z-index: 20;
 }
@@ -259,6 +269,7 @@ navbar li {
     width: 100%;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    padding-top: 10vh;
 
 }
 
