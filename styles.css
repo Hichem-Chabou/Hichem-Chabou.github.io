@@ -70,7 +70,6 @@ navbar li {
     animation: 1s fade 0.5s ease-in forwards;
     opacity: 0;
     z-index: 20;
-
 }
 
 @-webkit-keyframes fade {
@@ -88,10 +87,10 @@ navbar li {
 #summary {
     min-height: 100vh;
     color: #fff;
-    background:-webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(black)), url("img/computer.jpg") top center no-repeat;
-    background:linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), black), url("img/computer.jpg") top center no-repeat;
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(black)), url("img/computer.jpg") top center no-repeat;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), black), url("img/computer.jpg") top center no-repeat;
     background-size: cover;
-    
+
 }
 
 .summary_name {
@@ -110,7 +109,6 @@ navbar li {
     font-size: 3em;
     font-weight: bold;
     padding-top: 1em;
-    
 
 }
 
@@ -118,7 +116,6 @@ navbar li {
     padding-top: 0.5em;
     z-index: 20;
 }
-
 
 .summary_wrap {
 
@@ -143,8 +140,10 @@ navbar li {
     padding-bottom: 0.5em;
     z-index: 20;
 }
-.summary_name,.summary_sum {
-	-webkit-animation: 1s fade 1s ease-in forwards;
+
+.summary_name,
+.summary_sum {
+    -webkit-animation: 1s fade 1s ease-in forwards;
     animation: 1s fade 1s ease-in forwards;
     opacity: 0;
 }
@@ -160,7 +159,6 @@ navbar li {
     -ms-flex-direction: column;
     flex-direction: column;
     min-height: 96vh;
-
 }
 
 #projects h2 {
@@ -196,7 +194,6 @@ navbar li {
     margin-top: 0.7em;
     margin-bottom: 1em;
     z-index: 20;
-
 }
 
 .projects_card:hover {
@@ -208,8 +205,6 @@ navbar li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
-
 }
 
 .projects_card_img img {
@@ -231,7 +226,6 @@ navbar li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
 }
 
 
@@ -246,7 +240,6 @@ navbar li {
     flex-flow: column wrap;
     line-height: 1.5em;
     min-height: 80vh;
-
 }
 
 #skills h2 {
@@ -281,7 +274,6 @@ navbar li {
 }
 
 
-
 #projects,
 #skills {
     padding-bottom: 1em;
@@ -306,7 +298,6 @@ footer ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
 }
 
 footer ul li {
@@ -340,7 +331,6 @@ footer ul li a i:hover {
 
     }
 
-
     .nav img {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -361,16 +351,12 @@ footer ul li a i:hover {
 
     }
 
-
     .active {
         display: block;
         margin-bottom: -1em;
         margin-top: -0.5em;
         margin-left: -3em;
         width: 50px;
-        
-        
-
     }
 
 
@@ -414,7 +400,7 @@ footer ul li a i:hover {
 }
 
 #particles-js {
-    
+
     width: 100%;
     height: 100%;
     position: fixed;
