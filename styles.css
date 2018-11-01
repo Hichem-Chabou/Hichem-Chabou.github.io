@@ -8,12 +8,11 @@ body {
 }
 
 
-
 .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: beige;
+    background-color: #F5F5F5;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
@@ -26,7 +25,6 @@ body {
 .nav_items {
 
     font-size: 1.5em;
-    color: darkslategray;
     width: 50%;
     z-index: 20;
 }
@@ -149,8 +147,7 @@ navbar li {
 }
 
 #projects {
-    background-image: linear-gradient(45deg, #2E3192, #1bffff);
-    ;
+    background-image: linear-gradient(45deg, #4682B4, #B0C4DE);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,8 +183,8 @@ navbar li {
 .projects_card {
     background-color: floralwhite;
     border-radius: 0 0 15px 15px;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-transition: 0.3s;
     transition: 0.3s;
     width: 250px;
@@ -228,9 +225,8 @@ navbar li {
     display: flex;
 }
 
-
 #skills {
-    background-image: linear-gradient(45deg, #AFEEEE, #66CDAA);
+    background-image: linear-gradient(45deg, #E0FFFF, #ADD8E6);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -273,13 +269,10 @@ navbar li {
     margin-left: 0.1em;
 }
 
-
 #projects,
 #skills {
     padding-bottom: 1em;
-
 }
-
 
 footer {
     display: -webkit-box;
@@ -358,7 +351,6 @@ footer ul li a i:hover {
         margin-left: -3em;
         width: 50px;
     }
-
 
     .summary_name {
         font-size: 1.8em;
