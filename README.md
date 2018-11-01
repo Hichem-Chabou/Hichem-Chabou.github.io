@@ -1,2 +1,2 @@
 # Hichem-Chabou.github.io
-My Portfolio
+My Portfolio Website built with HTML, CSS and Javascript.No framework used.
