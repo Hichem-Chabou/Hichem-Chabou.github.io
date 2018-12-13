@@ -84,9 +84,11 @@ nav img {
         opacity: 1;
     }
 }
+
 #summary {
     min-height: 95vh;
 }
+
 .summary_name {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -130,6 +132,10 @@ nav img {
 
 .st-0,
 .st-1 {
+    fill: none;
+    stroke: #339999;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
     stroke-dasharray: 1300;
     stroke-dashoffset: 1300;
     z-index: 20;
@@ -240,7 +246,7 @@ nav img {
 
 .projects_card_title,
 .projects_card_content {
-    color: #2c3340;
+    color: #000;
     padding-left: 1em;
     padding-right: 0.5em;
 }
@@ -382,7 +388,7 @@ footer ul li a img:hover {
         margin-bottom: -1em;
         margin-top: -0.5em;
         margin-left: -3em;
-        width: 50px; 
+        width: 50px;
     }
 
     .summary_name {
@@ -390,11 +396,11 @@ footer ul li a img:hover {
         padding-bottom: 2em;
         padding-top: 3em;
     }
-    
+
     .summary_name h2 {
         margin-bottom: -1em;
     }
-    
+
     #logo {
         width: 300px;
     }
