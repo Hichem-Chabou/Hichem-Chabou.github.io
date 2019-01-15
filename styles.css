@@ -401,6 +401,7 @@ footer ul li a img:hover {
 	}
 
 	#logo {
+		margin-top: 1.5em;
 		width: 300px;
 	}
 
@@ -424,11 +425,11 @@ footer ul li a img:hover {
 
 @media screen and (min-width:2560px) {
 	.nav_items ul li a {
-		font-size: 2em;
+		font-size: 1.9em;
 	}
 
 	.summary_name h2 {
-		font-size: 4em;
+		font-size: 3.9em;
 	}
 
 	.summary_sum {
@@ -447,12 +448,12 @@ footer ul li a img:hover {
 	}
 
 	.projects_card {
-		width: 350px;
+		width: 400px;
 		font-size: 1.5em;
 	}
 
 	.projects_card_img img {
-		width: 350px;
+		width: 400px;
 		height: 300px;
 	}
 
