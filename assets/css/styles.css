@@ -425,11 +425,11 @@ footer ul li a img:hover {
 
 @media screen and (min-width:2560px) {
 	.nav_items ul li a {
-		font-size: 1.9em;
+		font-size: 1.75em;
 	}
 
 	.summary_name h2 {
-		font-size: 3.9em;
+		font-size: 3.7em;
 	}
 
 	.summary_sum {
