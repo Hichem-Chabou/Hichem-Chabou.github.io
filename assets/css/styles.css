@@ -37,7 +37,7 @@ nav {
 }
 
 .nav_items {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	width: 50%;
 }
 
@@ -45,8 +45,10 @@ nav ul {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding-right: 3em;
 }
 
 nav li {
@@ -57,6 +59,7 @@ nav li {
 }
 
 .nav_items ul li a {
+	padding-left: 3em;
 	color: #ffb86c;
 	opacity: 0.75;
 	z-index: 20;
@@ -163,6 +166,7 @@ nav img {
 }
 
 .summary_sum {
+	text-align: center;
 	font-size: 2em;
 	padding-left: 1em;
 	padding-right: 0.5em;
@@ -354,7 +358,7 @@ footer ul li a img:hover {
 	.main-nav {
 		display: none;
 	}
-
+	
 	.main-nav li {
 		padding-top: 0.8em;
 		padding-right: 0.5em;
@@ -369,6 +373,10 @@ footer ul li a img:hover {
 		height: 24px;
 	}
 
+	.nav_items ul li a {
+		padding-left: inherit;
+	}
+	
 	nav li,
 	.nav_items ul li a {
 		opacity: 1;
