@@ -1,3 +1,5 @@
+/* General Styles */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -25,6 +27,8 @@ footer {
 	display: -ms-flexbox;
 	display: flex;
 }
+
+/* Navigation Styles */
 
 nav {
 	background-color: #475772;
@@ -70,9 +74,11 @@ nav li {
 	z-index: 20;
 }
 
-nav img {
+nav span {
 	display: none;
 	z-index: 20;
+	font-size: 24px;
+	color: #4af0f6;
 }
 
 @-webkit-keyframes fade {
@@ -86,6 +92,8 @@ nav img {
 		opacity: 1;
 	}
 }
+
+/* About Styles */
 
 #summary {
 	min-height: 100vh;
@@ -144,7 +152,7 @@ nav img {
 }
 
 .st0 {
-	-webkit-animation: dash 2500ms 2000ms ease forwards;
+	-webkit-animation: dash 2500ms 2000ms linear forwards;
 	animation: dash 2500ms 2000ms linear forwards;
 }
 
@@ -181,6 +189,8 @@ nav img {
 	animation: 1s fade 1s ease-in forwards;
 	opacity: 0;
 }
+
+/* Projects Styles */
 
 #projects {
 	-webkit-box-orient: vertical;
@@ -224,6 +234,8 @@ nav img {
 	width: 250px;
 	margin-top: 0.7em;
 	margin-bottom: 1em;
+	margin-left: 1px;
+	margin-right: 1px;
 
 }
 
@@ -313,6 +325,8 @@ nav img {
 	padding-bottom: 1em;
 }
 
+/* Footer Styles */
+
 footer {
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
@@ -349,6 +363,8 @@ footer ul li a img:hover {
 	opacity: 1;
 }
 
+/* Media Queries */
+
 @media screen and (max-width:661px) {
 
 	nav {
@@ -364,13 +380,10 @@ footer ul li a img:hover {
 		padding-right: 0.5em;
 
 	}
-
-	.nav img {
+	.nav span {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
-		width: 24px;
-		height: 24px;
 	}
 
 	.nav_items ul li a {
@@ -384,7 +397,7 @@ footer ul li a img:hover {
 
 	.navbar-toggle {
 		position: absolute;
-		top: 10px;
+		top: 4px;
 		right: 20px;
 		cursor: pointer;
 		z-index: 21;
