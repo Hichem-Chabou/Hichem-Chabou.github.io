@@ -11,12 +11,12 @@ My Portfolio Website built with HTML, CSS and Javascript.
 
 ## Color Palettes :art:  
 ### Foreground  
-- ![#ffb86c](https://placehold.it/15/c5f015/000000?text=+) `#ffb86c`
-- ![#fff](https://placehold.it/15/f03c15/000000?text=+) `#fff`
-- ![#000](https://placehold.it/15/1589F0/000000?text=+) `#000`  
+- ![#ffb86c](https://placehold.it/15/ffb86c/000000?text=+) `#ffb86c`
+- ![#fff](https://placehold.it/15/fff/000000?text=+) `#fff`
+- ![#000](https://placehold.it/15/000/000000?text=+) `#000`  
 ### Background  
-- ![#475772](https://placehold.it/15/c5f015/000000?text=+) `#475772`
-- ![#2c3340](https://placehold.it/15/f03c15/000000?text=+) `#2c3340`
-- ![#475e75](https://placehold.it/15/1589F0/000000?text=+) `#475e75`  
+- ![#475772](https://placehold.it/15/475772/000000?text=+) `#475772`
+- ![#2c3340](https://placehold.it/15/2c3340/000000?text=+) `#2c3340`
+- ![#475e75](https://placehold.it/15/475e75/000000?text=+) `#475e75`  
 
 
