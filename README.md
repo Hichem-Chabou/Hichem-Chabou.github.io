@@ -13,7 +13,7 @@ My Portfolio Website built with HTML, CSS and Javascript.
 ### Foreground  
 - ![#ffb86c](https://placehold.it/15/ffb86c/000000?text=+) `#ffb86c`
 - ![#fff](https://placehold.it/15/fff/000000?text=+) `#fff`
-- ![#000](https://placehold.it/15/000/000000?text=+) `#000`  
+- ![#161616](https://placehold.it/15/161616/000000?text=+) `#161616`  
 ### Background  
 - ![#475772](https://placehold.it/15/475772/000000?text=+) `#475772`
 - ![#2c3340](https://placehold.it/15/2c3340/000000?text=+) `#2c3340`
