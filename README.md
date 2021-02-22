@@ -20,5 +20,5 @@ My Portfolio Website built with HTML, CSS and Javascript.
 - ![#FFFAF0](https://placehold.it/15/FFFAF0/000000?text=+) `#FFFAF0`
 - ![#475e75](https://placehold.it/15/475e75/000000?text=+) `#475e75`  
 
-## Screenshot  
+## Screenshot :camera:  
 ![Portfolio](https://github.com/Hichem-Chabou/Hichem-Chabou.github.io/blob/master/assets/img/Portfolio-full.png)
