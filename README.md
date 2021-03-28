@@ -24,4 +24,4 @@ My Portfolio Website built with HTML, CSS and Javascript.
 ![Portfolio](https://github.com/Hichem-Chabou/Hichem-Chabou.github.io/blob/master/assets/img/Portfolio-full.png)  
 
 ## To-Do :memo:  
-* Refactor code    
+* Refactor code  
